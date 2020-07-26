@@ -12,6 +12,5 @@
         <maintainer>klucon</maintainer>
         <maintainerurl>https://www.klucon.cz</maintainerurl>
         <targetplatform name="joomla" version="4.0"/>
-		<php_minimum>7.1</php_minimum>
     </update>
 </updates>
