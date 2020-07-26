@@ -16,7 +16,7 @@ $msg = Text::_('MOD_KLUCONHOLIDAY_TODAY');
 $file = file_get_contents ("http://build.klucon.cz/mod_kluconholiday/data.json");
 $json = json_decode($file, true);
 
-$svatky_lidove = $params->get('folk_holiday');
+$folk_holiday = $params->get('folk_holiday');
 if($folk_holiday == 1 ){
 
 echo "<strong>";
