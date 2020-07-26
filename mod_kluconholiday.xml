@@ -13,9 +13,6 @@
 
     <files>
         <folder>tmpl</folder>
-        <filename module="mod_kluconholiday">changelog.xml</filename>
-        <filename module="mod_kluconholiday">index.html</filename>
-        <filename module="mod_kluconholiday">update.xml</filename>
         <filename module="mod_kluconholiday">mod_kluconholiday.xml</filename>
         <filename module="mod_kluconholiday">mod_kluconholiday.php</filename>
     </files>
