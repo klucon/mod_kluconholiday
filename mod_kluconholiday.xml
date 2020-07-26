@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="module" version="4.0" method="upgrade" client="site">
-    <name>Klucon Svátky</name>
+    <name>MOD_KLUCONHOLIDAY_MODULE</name>
     <creationDate>26/07/2020</creationDate>
     <author>Ondřej Klučka (www.klucon.cz)</author>
     <authorEmail>info@klucon.cz</authorEmail>
