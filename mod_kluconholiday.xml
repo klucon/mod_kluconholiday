@@ -24,7 +24,7 @@
         <language tag="en-GB">language/en-GB/mod_kluconholiday.sys.ini</language>
     </languages>
 
-    <changelogurl></changelogurl>
+    <changelogurl>https://raw.githubusercontent.com/klucon/mod_kluconholiday/master/changelog.xml</changelogurl>
 
     <config>
         <fields name="params">            
