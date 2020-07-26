@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="4.0" method="upgrade" client="site">
+    <name>Klucon Svátky</name>
+    <creationDate>26/07/2020</creationDate>
+    <author>Ondřej Klučka (www.klucon.cz)</author>
+    <authorEmail>info@klucon.cz</authorEmail>
+    <authorUrl>https://www.klucon.cz</authorUrl>
+    <copyright>Copyright (C) 2020 Ondřej Klučka</copyright>
+    <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+    <version>1.0.0</version>
+    <description>MOD_KLUCONHOLIDAY_DESCRIPTION</description>
+    <namespace>Joomla\Module\Kluconholiday</namespace>
+
+    <files>
+        <folder>tmpl</folder>
+        <filename module="mod_kluconholiday">changelog.xml</filename>
+        <filename module="mod_kluconholiday">index.html</filename>
+        <filename module="mod_kluconholiday">mod_kluconholiday.xml</filename>
+        <filename module="mod_kluconholiday">mod_kluconholiday.php</filename>
+    </files>
+
+    <languages>
+        <language tag="en-GB">language/en-GB/mod_kluconholiday.ini</language>
+        <language tag="en-GB">language/en-GB/mod_kluconholiday.sys.ini</language>
+    </languages>
+
+    <changelogurl></changelogurl>
+
+    <config>
+        <fields name="params">            
+            <fieldset name="basic">
+                <field 
+                    name="folk_holiday"
+                    type="radio"
+                    label="MOD_KLUCONHOLIDAY_SHOW_FOLK_HOLIDAY"
+                    description="MOD_KLUCONHOLIDAY_SHOW_FOLK_HOLIDAY_DESC"
+                    default="1"
+                    layout="joomla/form/field/radio/switcher"
+                    >
+                    <option value="0">JHIDE</option>
+                    <option value="1">JSHOW</option>
+		        </field>
+
+            </fieldset>
+	    </fields>
+    </config>
+</extension>
