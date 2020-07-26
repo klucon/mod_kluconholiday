@@ -1,4 +1,5 @@
-# mod_kluconholiday
+# Joomla 4! module 
+## Klucon Holiday 
 Mod KluconHoliday depicting Czech folk, liturgical and animal holidays
 
 # Internet
