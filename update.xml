@@ -1,16 +1,22 @@
 <updates>
-    <update>
-        <name>mod_kluconholiday</name>
-        <description>MOD_KLUCONHOLIDAY</description>
-        <element>mod_kluconholiday</element>
-        <type>module</type>
-        <version>1.0.2</version>
-		<changelogurl>https://raw.githubusercontent.com/klucon/mod_kluconholiday/master/changelog.xml</changelogurl>      
-        <downloads>
-            <downloadurl type="full" format="zip">https://github.com/klucon/mod_kluconholiday/releases/download/1.0.2/mod_kluconholiday_v1.0.2.zip</downloadurl>
-        </downloads>
-        <maintainer>klucon</maintainer>
-        <maintainerurl>https://www.klucon.cz</maintainerurl>
-        <targetplatform name="joomla" version="4.0"/>
-    </update>
+	<update>
+		<name><![CDATA[ MOD_KLUCONHOLIDAY ]]></name>
+		<description><![CDATA[ MOD_KLUCONHOLIDAY_MODULE ]]></description>
+		<element>mod_kluconholiday</element>
+		<type>module</type>
+		<version>1.0.2</version>
+        <changelogurl>https://raw.githubusercontent.com/klucon/mod_kluconholiday/master/changelog.xml</changelogurl>
+		<infourl title="Klucon Holiday 1.0.2">https://www.klucon.cz/</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/klucon/mod_kluconholiday/releases/download/1.0.2/mod_kluconholiday_v1.0.2.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer><![CDATA[ Klucon.cz ]]></maintainer>
+		<maintainerurl>https://www.klucon.cz/</maintainerurl>
+		<section>Updates</section>
+		<targetplatform name="joomla" version="4.0"/>
+		<client>administrator</client>
+	</update>
 </updates>
