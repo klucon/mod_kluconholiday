@@ -7,7 +7,7 @@
     <authorUrl>https://www.klucon.cz</authorUrl>
     <copyright>Copyright (C) 2020 Ondřej Klučka</copyright>
     <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <description>MOD_KLUCONHOLIDAY_DESCRIPTION</description>
     <namespace>Joomla\Module\Kluconholiday</namespace>
 
@@ -39,6 +39,18 @@
                     type="radio"
                     label="MOD_KLUCONHOLIDAY_SHOW_FOLK_HOLIDAY"
                     description="MOD_KLUCONHOLIDAY_SHOW_FOLK_HOLIDAY_DESC"
+                    default="1"
+                    layout="joomla/form/field/radio/switcher"
+                    >
+                    <option value="0">JHIDE</option>
+                    <option value="1">JSHOW</option>
+		        </field>
+
+                <field 
+                    name="liturgical_holiday"
+                    type="radio"
+                    label="MOD_KLUCONHOLIDAY_SHOW_LITURGICAL_HOLIDAY"
+                    description="MOD_KLUCONHOLIDAY_SHOW_LITURGICAL_HOLIDAY_DESC"
                     default="1"
                     layout="joomla/form/field/radio/switcher"
                     >

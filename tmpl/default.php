@@ -31,5 +31,20 @@ echo "</p>";
     echo ("");
 }
 
+$liturgical_holiday = $params->get('liturgical_holiday');
+if($liturgical_holiday == 1 ){
+
+echo "<strong>";
+echo JText::_('MOD_KLUCONHOLIDAY_LITURGICAL_HOLIDAY');
+echo "</strong>";
+?>
+<p style="text-align:right;">
+<?php
+echo $json['svatky']['0']['liturgicky'];
+echo "</p>";         
+} else {
+    echo ("");
+}
+
 
 ?>

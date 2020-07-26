@@ -4,6 +4,33 @@
         <element>mod_kluconholiday</element>
         <date>26/07/2020</date>
         <type>module</type>
+        <version>1.0.2</version> 
+        <security>
+            <item></item>
+        </security>
+        <fix>
+            <item></item>
+        </fix>
+        <language>
+            <item></item>
+        </language>
+        <addition>
+            <item>Added liturgical holiday</item>
+        </addition>
+        <change>
+            <item>Change string to 1.0.2</item>
+        </change>
+        <remove>
+            <item></item>
+        </remove>
+        <note>
+            <item>Created Klucon Holidays module for Joomla 4!</item>
+        </note>
+    </changelog>
+    <changelog>
+        <element>mod_kluconholiday</element>
+        <date>26/07/2020</date>
+        <type>module</type>
         <version>1.0.1</version> 
         <security>
             <item></item>
