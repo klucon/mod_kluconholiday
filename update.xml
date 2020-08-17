@@ -4,7 +4,7 @@
 		<description><![CDATA[ MOD_KLUCONHOLIDAY_MODULE ]]></description>
 		<element>mod_kluconholiday</element>
 		<type>module</type>
-		<version>1.0.3</version>
+		<version>1.3.0</version>
         <changelogurl>https://raw.githubusercontent.com/klucon/mod_kluconholiday/master/changelog.xml</changelogurl>
 		<infourl title="Klucon Holiday 1.0.2">https://www.klucon.cz/</infourl>
 		<downloads>
