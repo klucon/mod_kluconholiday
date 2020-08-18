@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension type="module" version="4.0" method="upgrade" client="site">
+<extension type="module" version="4.*" method="upgrade" client="site">
     <name>MOD_KLUCONHOLIDAY_MODULE</name>
     <creationDate>26/07/2020</creationDate>
     <author>Ondřej Klučka (www.klucon.cz)</author>
@@ -7,7 +7,7 @@
     <authorUrl>https://www.klucon.cz</authorUrl>
     <copyright>Copyright (C) 2020 Ondřej Klučka</copyright>
     <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
     <description>MOD_KLUCONHOLIDAY_DESCRIPTION</description>
     <namespace>Joomla\Module\Kluconholiday</namespace>
 
