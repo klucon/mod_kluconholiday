@@ -46,5 +46,19 @@ echo "</p>";
     echo ("");
 }
 
+$dogs_holiday = $params->get('dogs_holiday');
+if($liturgical_holiday == 1 ){
+
+echo "<strong>";
+echo JText::_('MOD_KLUCONHOLIDAY_DOGS_HOLIDAY');
+echo "</strong>";
+?>
+<p style="text-align:right;">
+<?php
+echo $json['svatky']['0']['pes'];
+echo "</p>";         
+} else {
+    echo ("");
+}
 
 ?>
