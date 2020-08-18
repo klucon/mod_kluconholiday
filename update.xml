@@ -16,7 +16,7 @@
 		<maintainer><![CDATA[ Klucon.cz ]]></maintainer>
 		<maintainerurl>https://www.klucon.cz/</maintainerurl>
 		<section>Updates</section>
-		<targetplatform name="joomla" version="4.0"/>
+		<targetplatform name="joomla" version="4.*"/>
 		<client>administrator</client>
 	</update>
 </updates>
