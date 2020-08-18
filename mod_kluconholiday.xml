@@ -25,7 +25,7 @@
     <changelogurl>https://raw.githubusercontent.com/klucon/mod_kluconholiday/master/changelog.xml</changelogurl>
 
     <updateservers>
-		<server type="extension" name="MOD_KLUCONHOLIDAY_MODULE">https://raw.githubusercontent.com/klucon/mod_kluconholiday/master/update.xml</server>
+		<server type="extension" priority="1" name="MOD_KLUCONHOLIDAY_MODULE">https://raw.githubusercontent.com/klucon/mod_kluconholiday/master/update.xml</server>
 	</updateservers>
 
     <config>
