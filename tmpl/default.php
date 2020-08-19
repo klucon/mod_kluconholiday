@@ -70,7 +70,7 @@ echo "</strong>";
 ?>
 <p style="text-align:right;">
 <?php
-echo $json['svatky']['0']['kocky'];
+echo $json['svatky']['0']['kocka'];
 echo "</p>";         
 } else {
     echo ("");
