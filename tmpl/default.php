@@ -61,4 +61,19 @@ echo "</p>";
     echo ("");
 }
 
+$cats_holiday = $params->get('cats_holiday');
+if($cats_holiday == 1 ){
+
+echo "<strong>";
+echo JText::_('MOD_KLUCONHOLIDAY_CATS_HOLIDAY');
+echo "</strong>";
+?>
+<p style="text-align:right;">
+<?php
+echo $json['svatky']['0']['kocky'];
+echo "</p>";         
+} else {
+    echo ("");
+}
+
 ?>
