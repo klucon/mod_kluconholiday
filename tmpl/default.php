@@ -79,7 +79,7 @@ echo "</p>";
 }
 
 $dogs_holiday = $params->get('dogs_holiday');
-if($liturgical_holiday == 1 ){
+if($dogs_holiday == 1 ){
 
 echo "<strong>";
 echo JText::_('MOD_KLUCONHOLIDAY_DOGS_HOLIDAY');
