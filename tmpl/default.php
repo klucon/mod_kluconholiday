@@ -76,4 +76,18 @@ echo "</p>";
     echo ("");
 }
 
+$horses_holiday = $params->get('horses_holiday');
+if($horses_holiday == 1 ){
+
+echo "<strong>";
+echo JText::_('MOD_KLUCONHOLIDAY_HORSES_HOLIDAY');
+echo "</strong>";
+?>
+<p style="text-align:right;">
+<?php
+echo $json['svatky']['0']['kun'];
+echo "</p>";         
+} else {
+    echo ("");
+}
 ?>

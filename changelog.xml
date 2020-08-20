@@ -2,6 +2,33 @@
 <changelogs>
     <changelog>
         <element>mod_kluconholiday</element>
+        <date>20/08/2020</date>
+        <type>module</type>
+        <version>1.5.0</version> 
+        <security>
+            <item></item>
+        </security>
+        <fix>
+            <item></item>
+        </fix>
+        <language>
+            <item></item>
+        </language>
+        <addition>
+            <item>Add horses holiday</item>
+        </addition>
+        <change>
+            <item>Change string to 1.5.0</item>s
+        </change>
+        <remove>
+            <item></item>
+        </remove>
+        <note>
+            <item>Created Klucon Holidays module for Joomla 4!</item>
+        </note>
+    </changelog>
+    <changelog>
+        <element>mod_kluconholiday</element>
         <date>19/08/2020</date>
         <type>module</type>
         <version>1.4.0</version> 
