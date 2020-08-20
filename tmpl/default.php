@@ -16,6 +16,38 @@ $msg = Text::_('MOD_KLUCONHOLIDAY_TODAY');
 $file = file_get_contents ("http://build.klucon.cz/mod_kluconholiday/data.json");
 $json = json_decode($file, true);
 
+$greeting_day = $params->get('greeting_day');
+if($greeting_day == 1 ){
+    $hours = Date('G');
+if ($hours>=0 and $hours<=5)       {$greeting="MOD_KLUCONHOLIDAY_GREETING_GOOD_NIGHT";}
+if ($hours>=6 and $hours<=7)       {$greeting="MOD_KLUCONHOLIDAY_GREETING_GOOD_MORNING1";}
+if ($hours>=8 and $hours<=11)      {$greeting="MOD_KLUCONHOLIDAY_GREETING_GOOD_MORNING2";}
+if ($hours == 12)                  {$greeting="MOD_KLUCONHOLIDAY_GREETING_GOOD_MORNING3";}
+if ($hours>=13 and $hours<=15)     {$greeting="MOD_KLUCONHOLIDAY_GREETING_GOOD_AFTERNOON1";}
+if ($hours>=16 and $hours<=17)     {$greeting="MOD_KLUCONHOLIDAY_GREETING_GOOD_AFTERNOON2";}
+if ($hours>=18 and $hours<=21)     {$greeting="MOD_KLUCONHOLIDAY_GREETING_GOOD_EVENING";}
+if ($hours>=22 and $hours<=23)     {$greeting="MOD_KLUCONHOLIDAY_GREETING_GOOD_NIGHT";}
+echo "<strong>";
+echo JText::_($greeting); 
+echo "</strong><br />";
+} else {
+    echo ("");
+}
+
+$today_date = $params->get('today_date');
+if($today_date == 1 ){
+echo "<strong>";
+echo JText::_('MOD_KLUCONHOLIDAY_TODAY_DATE');
+echo "</strong>";
+?>
+<p style="text-align:right;">
+<?php
+echo Date("d. m. Y", Time());
+echo "</p>";             
+} else {
+    echo ("");
+}
+
 $folk_holiday = $params->get('folk_holiday');
 if($folk_holiday == 1 ){
 

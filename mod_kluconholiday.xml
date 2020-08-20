@@ -31,6 +31,31 @@
     <config>
         <fields name="params">            
             <fieldset name="basic">
+
+                <field 
+                    name="greeting_day"
+                    type="radio"
+                    label="MOD_KLUCONHOLIDAY_SHOW_GREETING_DAY"
+                    description="MOD_KLUCONHOLIDAY_SHOW_GREETING_DAY_DESC"
+                    default="1"
+                    layout="joomla/form/field/radio/switcher"
+                    >
+                    <option value="0">JHIDE</option>
+                    <option value="1">JSHOW</option>
+		        </field>
+
+                <field 
+                    name="today_date"
+                    type="radio"
+                    label="MOD_KLUCONHOLIDAY_SHOW_TODAY_DATE"
+                    description="MOD_KLUCONHOLIDAY_SHOW_TODAY_DATE_DESC"
+                    default="1"
+                    layout="joomla/form/field/radio/switcher"
+                    >
+                    <option value="0">JHIDE</option>
+                    <option value="1">JSHOW</option>
+		        </field>
+
                 <field 
                     name="folk_holiday"
                     type="radio"
